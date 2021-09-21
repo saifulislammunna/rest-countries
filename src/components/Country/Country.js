@@ -6,8 +6,8 @@ const Country = (props) => {
     console.log(props.country);
 
     return (
-        <div className="country">
-           <h4>This is: {name}</h4>
+        <div className="country bg-secondary">
+           <h4 className="text-warning">This is: {name}</h4>
            <img src={flag} alt="" /> 
            <p><small>Region: {region}</small></p>
            <p>Capital is: {capital}  population: {population}</p>
